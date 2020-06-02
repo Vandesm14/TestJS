@@ -1,8 +1,4 @@
-const {
-	verbose,
-	test,
-	done
-} = (function () {
+const testjs = (function () {
 	let lastTest;
 	let testGroup = [];
 	let failedTests = [];
@@ -89,5 +85,6 @@ const {
 		verbose,
 		test,
 		done
-	}
+	};
 })();
+const {verbose, test ,done} = testjs;
